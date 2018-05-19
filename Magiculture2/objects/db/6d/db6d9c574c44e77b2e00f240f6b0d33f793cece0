@@ -1,0 +1,460 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+	
+		"hematite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 48
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,	
+			"min-height": 16,
+			"max-height": 180,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"malachite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 2
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 36
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 16,
+			"max-height": 180,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"limonite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 1
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 6,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"azurite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 32
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,	
+			"min-height": 12,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"cassiterite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 4
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,	
+			"min-height": 32,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"teallite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 5
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 28
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 12,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"galena_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 28
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 5
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 16,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		
+		"bauxite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 7
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 16,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		
+		"platinum_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 8
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 24
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		
+		"autunite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore",
+					"metadata": 9
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"coal_low": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 64
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,	
+			"min-height": 0,
+			"max-height": 72,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		
+		"coal_high": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone", "traverse:red_rock",  "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 42
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 72,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"cinnabar_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"metadata": 1
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,	
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"gold_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"metadata": 2
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 28
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,	
+			"min-height": 0,
+			"max-height": 56,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"lapis_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"metadata": 3
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 21
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"quartz_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"metadata": 4
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 24
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 0,
+			"max-height": 58,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"kimberlite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"metadata": 5
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		}, 
+		
+		"beryl_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"metadata": 1
+				},
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 12
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,	
+			"min-height": 0,
+			"max-height": 72,
+			"retrogen": "true",
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-100
+				]
+			}
+		} 
+		
+	}
+}
